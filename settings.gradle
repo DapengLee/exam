@@ -1,0 +1,1 @@
+include ':app', ':infiniteviewpager', ':AdapterLibrary', ':MyTool', ':spinner_lib'

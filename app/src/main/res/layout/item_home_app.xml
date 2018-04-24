@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    cardview:cardCornerRadius="6dp"
+    cardview:cardElevation="8dp"
+    cardview:cardUseCompatPadding="true"
+    cardview:cardBackgroundColor="@color/white"
+    cardview:contentPadding="8dp">
+    <!--cardElevation效果阴影-->
+    <!--cardCornerRadius效果圆角-->
+    <!--cardUseCompatPadding contentPadding效果缩进-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/item_iv_icon"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/category_test" />
+
+        <TextView
+            android:id="@+id/item_tv_appname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+
+            android:text="2018年4月自学考试注意事项： 
+  1、本次考试时间：2018年4月14-15日，每天考2门课程，具体考试时间分别是上午：9:00-11:30；下午2:30-5:00；
+  2、考试必带证：身份证原件、准考证 。
+  3、考试必备工具：0.5毫米黑色签字笔、2B铅笔、橡皮擦 ；
+  4、确认考点：考前一天（13号）各位考生最好抽个时间到考点去看看，不要到14号上午考试的时候找不到考场，一定要保证第一门考试顺利到达考点教室；
+ 5、大家要看清楚准考证上的考点：以准考证为准，千万不要找错了考点；
+ 6、天气：请百度长沙14-15日天气，合理安排衣物；
+ 7、考试必须全部写满，有卷面分，不得空任何一题；
+ 8、考试一定要准确粘贴条形码，完整填写笔记卡（诚信应考承诺），未粘贴，未抄写无成绩，
+ 9.考试期间一定注意饮食和交通安全，切忌胡吃海喝，保管好财物。
+
+本次考试人数多，考点多，临近请各位考试抓紧时间复习,提前安排住宿交通，祝大家考试考出理想成绩。" />
+
+        <TextView
+            android:id="@+id/item_tv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_tv_appname"
+            android:layout_marginLeft="140dp"
+            android:textColor="@color/black"
+            android:visibility="gone"
+            android:text="xxx" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="100dp"
+            android:background="#000000"
+            android:visibility="gone" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:text="2017年9月13"
+            android:textColor="@color/black"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

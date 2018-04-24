@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mvp.view.activities.MainActivity">
+
+    <include  layout="@layout/title"/>
+
+
+    <com.snow.selfexam.mvp.view.weight.NoScrollViewPager
+        android:id="@+id/home_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <RadioGroup
+        android:id="@+id/home_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/HomeRadioButton"
+            android:drawableTop="@drawable/selector_icon_home"
+            android:text="首页"
+            />
+        <RadioButton
+            android:id="@+id/rb_learn"
+            style="@style/HomeRadioButton"
+            android:drawableTop="@drawable/selector_icon_cart"
+            android:text="学习中心"/>
+
+        <RadioButton
+            android:id="@+id/rb_more"
+            style="@style/HomeRadioButton"
+            android:drawableTop="@drawable/selector_icon_more"
+            android:text="个人中心"/>
+    </RadioGroup>
+
+</LinearLayout>

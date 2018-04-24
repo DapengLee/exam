@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="baseTitle_text_color">#fa5294</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="red">#FF0000</color>
+    <!-- 我页面的color-->
+    <!-- 设置页面的color-->
+
+    <!-- 登录-->
+
+    <!-- 注册-->
+
+    <!-- 搜索-->
+
+    <!--   配音间  -->
+    <!-- 桃红色-->
+
+    <color name="new_blue_normal">#64beff</color>
+    <color name="dark_grey">#999999</color>
+    <color name="bright_grey">#dedede</color>
+    <!-- Activity background color -->
+    <color name="center_color">#00bcfc</color>
+    <!-- text color -->
+
+    <!-- Chat "sent time" text background -->
+
+    <!-- the background color used for unread conversation -->
+
+</resources>

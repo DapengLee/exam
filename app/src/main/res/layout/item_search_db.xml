@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dip"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_item_word"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaaaaa"
+
+        android:padding="5dp"
+        android:text="A"
+        android:textSize="20sp" />
+
+    <com.snow.selfexam.mvp.view.weight.MyTextView
+        android:id="@+id/book_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="题目"
+        android:layout_marginLeft="5dp"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/a_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="a" />
+
+    <TextView
+        android:id="@+id/b_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="b" />
+
+    <TextView
+        android:id="@+id/c_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="c" />
+
+    <TextView
+        android:id="@+id/d_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="d" />
+
+    <TextView
+        android:id="@+id/e_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="e" />
+
+    <TextView
+        android:id="@+id/answer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="answer_name"
+        android:textColor="@color/red"
+        android:layout_marginLeft="15dp"
+        android:textSize="18dp" />
+</LinearLayout>

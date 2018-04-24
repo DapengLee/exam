@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.snow.selfexam">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REA_DEXTERNAL_STORAGE" />
+
+    <application
+        android:name=".app.base.SelfExamApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".mvp.view.activities.MainActivity" />
+        <activity android:name=".app.module.guide.GuideActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".app.module.guide.WelcomeActivity" />
+        <activity android:name=".mvp.view.activities.LoginActivity" />
+        <activity android:name=".mvp.view.activities.RegisterActivity" />
+        <activity android:name=".mvp.view.activities.ForgotPasswordActivity" />
+        <activity android:name=".mvp.view.activities.ModifyPwActivity" />
+        <activity android:name=".mvp.view.activities.CatchPhraseActivity" />
+        <activity android:name=".mvp.view.activities.MyMajorActivity" />
+        <activity android:name=".mvp.view.activities.AboutUsActivity" />
+        <activity android:name=".mvp.view.activities.SettingActivity" />
+        <activity android:name=".mvp.view.activities.AllDataSubjectActivity" />
+        <activity android:name=".mvp.view.activities.SearchDetailActivity" />
+        <activity android:name=".mvp.view.activities.SearchActivity" />
+        <activity android:name=".mvp.view.activities.TruePraActivity" />
+        <activity android:name=".mvp.view.activities.AllDataActivity" />
+        <activity android:name=".app.bank.activity.ChoiceActivity" />
+        <activity android:name=".app.bank.activity.ResultReportActivity" />
+        <activity android:name=".mvp.view.activities.SingleActivity" />
+        <activity android:name=".mvp.view.activities.NounActivity" />
+        <activity android:name=".mvp.view.activities.CollectionDataActivity" />
+        <activity android:name=".mvp.view.activities.ErrorActivity" />
+
+        <!-- 通过AndroidManifest配置AppKey和AppSecret，如果你选择通过代码配置，则不需要配置以下meta-data -->
+        <meta-data
+            android:name="Mob-AppKey"
+            android:value="23bbcc6ca3374" />
+        <meta-data
+            android:name="Mob-AppSecret"
+            android:value="6027c0f3a0013776021e73ce8a272978" />
+
+        <activity android:name=".mvp.view.activities.TestActivity" />
+        <activity android:name=".mvp.view.activities.RegionSelectActivity"></activity>
+    </application>
+
+</manifest>

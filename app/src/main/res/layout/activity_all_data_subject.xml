@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.snow.selfexam.mvp.view.activities.MyMajorActivity">
+
+    <include layout="@layout/title" />
+    <Button
+        android:id="@+id/bt_downloadFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Download File"/>
+    <ProgressBar
+        android:id="@+id/id_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <GridView
+        android:id="@+id/all_data_gv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"/>
+</LinearLayout>
